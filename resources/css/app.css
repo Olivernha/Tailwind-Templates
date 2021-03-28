@@ -1,0 +1,26 @@
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply lg:px-8 px-4;
+}
+a{
+    text-decoration: none;
+    @apply text-green-400;
+}
+a:hover{
+    text-decoration: underline;
+}
+.top-nav-item{
+    @apply text-gray-700 text-sm mr-4 font-semibold pb-6 border-b-2 border-solid border-transparent ;
+}
+
+.top-nav-item:hover{
+    text-decoration: none;
+    @apply border-green-500 text-green-500;
+}
+.hero{
+    background-image: url('/img/twitter/tailwind_bg.jpg');
+}
